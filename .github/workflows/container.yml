@@ -5,6 +5,7 @@ on:
       - main
     paths:
       - 'packages/container/**'
+      - '.github/workflow/**'
 defaults:
   run:
     working-directory: packages/container
